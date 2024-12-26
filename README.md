@@ -8,17 +8,14 @@ A fully synthesizable implementation of a Convolutional Neural Network (CNN) in 
 
 This project implements CNN inference in hardware, demonstrating how modern machine learning algorithms can be efficiently deployed on FPGA platforms. The design uses pre-trained weights and biases loaded through .mif files, focusing purely on the inference stage of the neural network.
 
+
+![Image Title](https://github.com/adityakak27/MNIST-CNN-Verilog/blob/main/Web_Photo_Editor.jpg)
+
+
 # Features
 
 Fully synthesizable Verilog implementation
 
 MNIST handwritten digit recognition (95% accuracy)
 
-Pre-trained weights and biases loaded via .mif files
-
-Fixed-point arithmetic for efficient computation
-
-Complete CNN inference pipeline
-
-
-![Image Title](https://github.com/adityakak27/MNIST-CNN-Verilog/blob/main/Web_Photo_Editor.jpg)
+Compares output values with expected results
