@@ -19,3 +19,6 @@ Pre-trained weights and biases loaded via .mif files
 Fixed-point arithmetic for efficient computation
 
 Complete CNN inference pipeline
+
+
+![Image Title](https://github.com/adityakak27/MNIST-CNN-Verilog/blob/main/Web_Photo_Editor.jpg)
