@@ -12,47 +12,6 @@ This project implements CNN inference in hardware, demonstrating how modern mach
 ![Image Title](https://github.com/adityakak27/MNIST-CNN-Verilog/blob/main/Web_Photo_Editor.jpg)
 
 
-project_root/
-
-├── Verilog Header/
-
-│   └── include.v
-
-├── zyNet/
-
-│   ├── zynet.v
-
-│   ├── axi_lite_wrapper.v
-
-│   ├── Layer_1/
-
-│   │   └── Layer_1.v (30 neurons)
-
-│   ├── Layer_2/
-
-│   │   └── Layer_2.v (30 neurons)
-
-│   ├── Layer_3/
-
-│   │   └── Layer_3.v (10 neurons)
-
-│   ├── Layer_4/
-
-│   │   └── Layer_4.v (10 neurons)
-
-│   └── maxFinder.v
-
-├── Memory Initialization Files/ (161 files)
-
-│   ├── weights/
-
-│   └── biases/
-
-└── Constraints/
-
-    └── constraints.v
-
-
 
 # Features
 
