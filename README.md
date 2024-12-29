@@ -14,8 +14,17 @@ This project implements CNN inference in hardware, demonstrating how modern mach
 
 # Features
 
-Fully synthesizable Verilog implementation
+High Accuracy Implementation: Achieves around 95% accuracy on the MNIST handwritten digit recognition dataset for 1000 samples, whereas the accuracy is closer to 98% at smaller batch sizes (~100)
 
-MNIST handwritten digit recognition (95% accuracy)
+Complete Hardware Design: Neural network architecture fully implemented in Verilog:
 
-Compares output values with expected results
+Fully connected layer, neuron and activation function modules implemented 
+
+Fully synthesizable codebase
+
+Validated through behavioral simulations
+
+Pre-trained weights and biases loaded through .mif files
+
+
+The entire implementation is done purely in hardware description language (Verilog), demonstrating the capability of processing neural networks directly on FPGA hardware without requiring external processors or software layers.
